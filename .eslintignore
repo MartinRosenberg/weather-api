@@ -1,0 +1,10 @@
+# Lint config files
+
+!.eslintrc.js
+
+## Don't lint generated files
+
+.history/
+.vscode/
+dist/
+node_modules/
