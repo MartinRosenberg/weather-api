@@ -23,5 +23,6 @@ module.exports = {
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
     '@typescript-eslint/no-extraneous-class': 'off',
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
   },
 }
