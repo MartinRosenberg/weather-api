@@ -1,7 +1,6 @@
 module.exports = {
   env: {
     es2020: true,
-    jest: true,
     node: true,
   },
   extends: [
@@ -22,7 +21,7 @@ module.exports = {
   ],
   rules: {
     'comma-dangle': ['error', 'always-multiline'],
-    '@typescript-eslint/no-extraneous-class': 'off',
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+    '@typescript-eslint/no-extraneous-class': 'off',
   },
 }

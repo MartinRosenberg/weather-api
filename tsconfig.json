@@ -11,6 +11,6 @@
     "baseUrl": "./",
     "incremental": true
   },
-  "include": ["src/", "test/", ".eslintrc.js"],
-  "exclude": ["node_modules/", "dist/"]
+  "include": [".eslintrc.js", "src/"],
+  "exclude": ["dist/","node_modules/"]
 }

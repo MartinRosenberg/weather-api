@@ -1,6 +1,6 @@
 import { HttpModule, Module } from '@nestjs/common'
 
-import { ConfigModule } from '../config'
+import { ConfigModule } from '../config/config.module'
 import { WeatherController } from './weather.controller'
 import { WeatherService } from './weather.service'
 
